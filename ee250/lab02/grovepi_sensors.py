@@ -77,7 +77,7 @@ if __name__ == '__main__':
 			target = int(degrees / full_angle * ultrasonic_range)
 
 			#distance from ranger
-			distance = grovepi.ultrasonicRead(ultrasonic_ranger))
+			distance = grovepi.ultrasonicRead(ultrasonic_ranger)
 
 			if distance < target:
 				setRGB( 128, 0, 0)
@@ -97,28 +97,4 @@ if __name__ == '__main__':
 		except I0Error:
 			print("Error")
 			setText('')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
