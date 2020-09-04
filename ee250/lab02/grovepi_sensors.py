@@ -82,7 +82,7 @@ if __name__ == '__main__':
 			if distance < target:
 				setRGB( 128, 0, 0)
 				display = '%3dcm OBJ PRES   /n%3dcm' % (target, distance)
-			else
+			else:
 				setRGB( 0, 128, 0)
 				display = '%3dcm OBJ PRES   /n%3dcm' % (target, distance)
 
