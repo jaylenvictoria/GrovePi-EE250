@@ -1,10 +1,9 @@
 """ EE 250L Lab 02: GrovePi Sensors
 
 List team members here.
-
 Insert Github repository link here.
 """
-
+#github.com/jaylenvictoria/GrovePi-EE250
 """python3 interpreters in Ubuntu (and other linux distros) will look in a 
 default set of directories for modules when a program tries to `import` one. 
 Examples of some default directories are (but not limited to):
