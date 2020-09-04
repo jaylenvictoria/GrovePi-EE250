@@ -76,7 +76,7 @@ if __name__ == '__main__':
 				display = '%3dcm OBJ PRES   /n%3dcm' % (target, distance)
 			else:
 				setRGB( 0, 128, 0)
-				display = '%3dcm OBJ PRES   /n%3dcm' % (target, distance)
+				display = '%3dcm   /n%3dcm' % (target, distance)
 
 			setText_norefresh(display)
 
